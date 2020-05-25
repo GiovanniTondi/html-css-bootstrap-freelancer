@@ -37,4 +37,8 @@ form [class*="col-"] {
     height: 100px;
     margin-top: 30px;
 }
+
+.green {
+    background-color: #247e5e;
+}
 /* /DEBUG */
