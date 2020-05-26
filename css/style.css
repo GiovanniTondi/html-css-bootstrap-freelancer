@@ -82,6 +82,47 @@ section .star-line span {
     max-width: 100%;
 }
 
+#about {
+    padding: 50px 0;
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+#about .star-line span {
+    border: solid 2px #fff;
+}
+
+#about .download .btn-default {
+    margin-top: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.box p {
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+#contact .form-group .form-control {
+    margin-top: 15px;
+    padding: 15px 0 20px;
+    border: none;
+    border-bottom: solid 1px #ccc;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#contact .form-group .form-control::placeholder {
+    color: #000;
+}
+
+#contact form .btn-default {
+    color: #fff;
+    background-color: #1abc9c;
+}
+
+
+
 /* DEBUG */
 
 
@@ -94,18 +135,10 @@ footer {
     padding-top: 30px;
 }
 
-
-form [class*="col-"] {
-    height: 50px;
-}
-
 .copy {
     background-color: #150f30;
     height: 100px;
     margin-top: 30px;
 }
 
-.green {
-    background-color: #247e5e;
-}
 /* /DEBUG */
