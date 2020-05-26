@@ -84,6 +84,10 @@ section .star-line span {
     max-width: 100%;
 }
 
+.cards:hover {
+    opacity: 0.7;
+}
+
 #about {
     padding: 50px 0;
     background-color: #1abc9c;
@@ -98,6 +102,15 @@ section .star-line span {
     margin-top: 20px;
     background-color: transparent;
     color: #fff;
+}
+
+#about .download .btn-default:hover {
+    color: #122509;
+    background-color: #fff;
+}
+
+.box {
+    margin-top: 30px;
 }
 
 .box p {
@@ -121,6 +134,10 @@ section .star-line span {
 #contact form .btn-default {
     color: #fff;
     background-color: #1abc9c;
+}
+
+#contact form .btn-default:hover {
+    background-color: #14997f;
 }
 
 /* FOOTER */
